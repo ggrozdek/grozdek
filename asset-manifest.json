@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/grozdek/static/css/main.e6c13ad2.css",
-    "main.js": "/grozdek/static/js/main.df6bf56a.js",
+    "main.js": "/grozdek/static/js/main.5389ca63.js",
     "static/js/453.9bd9ebba.chunk.js": "/grozdek/static/js/453.9bd9ebba.chunk.js",
     "index.html": "/grozdek/index.html",
     "main.e6c13ad2.css.map": "/grozdek/static/css/main.e6c13ad2.css.map",
-    "main.df6bf56a.js.map": "/grozdek/static/js/main.df6bf56a.js.map",
+    "main.5389ca63.js.map": "/grozdek/static/js/main.5389ca63.js.map",
     "453.9bd9ebba.chunk.js.map": "/grozdek/static/js/453.9bd9ebba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.df6bf56a.js"
+    "static/js/main.5389ca63.js"
   ]
 }
