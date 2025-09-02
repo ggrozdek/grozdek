@@ -68,7 +68,7 @@ const IMG = {
     green: img("/img/lettuce_green.png"),
     rucola: img("/img/rukola.png"),
     coleslaw: img("/img/coleslaw.png"),
-    none: img("/img/no_lettuce.png"),
+    none: img("/img/empty.png"),
   },
   cheese: {
     gauda: img("/img/gauda.png"),
