@@ -263,8 +263,10 @@ export default function App() {
   function submitOrder() {
     // če je nastavljen web3forms key, pošlji preko HTML forma (redirect stori Web3Forms)
     const hasKey =
-      !!CONFIG.web3formsKey && 
+      typeof CONFIG.web3formsKey === "string" &&
+      CONFIG.web3formsKey.trim().length > 0 &&
       CONFIG.web3formsKey !== "b797c3ae-f671-4a8f-b6f6-6175e132b3de";
+
     
     if (hasKey && formRef.current && messageRef.current) {
       messageRef.current.value = buildMessage();
